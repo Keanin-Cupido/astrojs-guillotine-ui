@@ -1,0 +1,11 @@
+---
+import Head from "../components/head.astro";
+
+const { title } = Astro.props;
+---
+<html lang="en">
+    <Head title={title} />
+    <body class="w-screen h-screen overflow-hidden">
+        <slot />
+    </body>
+</html>

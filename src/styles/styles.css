@@ -1,0 +1,6 @@
+.container {
+  width: 100%;
+  background-color: #1e3a8a; /* Blue background */
+  min-height: 100vh;
+  overflow: hidden;
+}
